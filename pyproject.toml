@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ptmk-project"
+version = "0.1.0"
+description = ""
+authors = ["den13boec <den-boris@list.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2-binary = "^2.9.10"
+types-psycopg2 = "^2.9.21.20240819"
+faker = "^30.6.0"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
